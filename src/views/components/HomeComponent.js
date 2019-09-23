@@ -16,8 +16,8 @@ import Header from '../../assets/theme/components/Header';
 const contactStyles = {
   marginTop: 80,
   paddingBottom: 200,
-  position: `relative`,
-  display: `flexbox`,
+  display: `flex`,
+  flexDirection: 'column'
 };
 
 const HomeComponent = ({
@@ -30,7 +30,8 @@ const HomeComponent = ({
   onPressSubmitButton,
 }) => (
   <>
-    <div className="App" style={{ backgroundColor: constants.appBackgroundColor }}>
+    {/* <div className="App" style={{ backgroundColor: constants.appBackgroundColor }}> */}
+    <div className="Header" style={{...styles.headerContainer, backgroundColor: constants.appBackgroundColor}}>
       <Header
         onPressMenuItem={onPressMenuItem}
         teamRef={teamRef}

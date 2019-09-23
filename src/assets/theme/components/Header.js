@@ -9,8 +9,35 @@ import Title from './Title';
 
 const Header = ({ onPressMenuItem, teamRef, aboutRef, contactRef }) => (
   <div style={styles.header}>
-    <div style={styles.headerLeftSideBox}>
-      <img src={sunshineLogo} alt="sunshine logo" style={{ width: 300 }} />
+    <div style={{height: 200, display: 'flex', flexDirection: 'row', justifyContent: `space-between`}}> 
+      <img resizeMode="contain" src={sunshineLogo} alt="sunshine logo" style={styles.headerLogo} />
+      <Menu
+        onPressMenuItem={onPressMenuItem}
+        teamRef={teamRef}
+        aboutRef={aboutRef}
+        contactRef={contactRef}
+      />
+    </div>
+    {/* <div> 
+        <div style={{marginTop: `40%`, marginLeft: `4.78%` }}>
+          <span>Our best machines are made of Sunshine </span>
+          <p style={styles.headerSubtitle}>
+            We are part of the team building Moonad: a Peer-to-Peer Formal Operating System
+          </p>
+      </div> */}
+     {/* <div style={{ flex: 1.3, marginTop: `40%`, marginLeft: `4.78%` }}>
+        <Title text="Our best machines are made of Sunshine" />
+        <p style={{ color: constants.lightest }}>
+          We are part of the team building Moonad: a Peer-to-Peer Formal Operating System
+        </p>
+      </div> */}
+      {/* <div style={styles.headerBackgroundImageContainer}>
+        <div style={{ ...styles.headerBackgroundImageBox, backgroundImage: `url(${mainImage})` }} />
+      </div> */}
+    {/* </div> */}
+
+    {/* <div style={styles.headerLeftSideBox}>
+      <img src={sunshineLogo} alt="sunshine logo" style={styles.headerLogo} />
       <div style={{ flex: 1.3, marginTop: `40%`, marginLeft: `4.78%` }}>
         <Title text="Our best machines are made of Sunshine" />
         <p style={{ color: constants.lightest }}>
@@ -28,7 +55,7 @@ const Header = ({ onPressMenuItem, teamRef, aboutRef, contactRef }) => (
       <div style={styles.headerBackgroundImageContainer}>
         <div style={{ ...styles.headerBackgroundImageBox, backgroundImage: `url(${mainImage})` }} />
       </div>
-    </div>
+    </div> */}
   </div>
 );
 
