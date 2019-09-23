@@ -19,11 +19,10 @@ export const constants = {
 export const styles = {
   h3: {
     fontFamily: 'Poppins',
-    margin: 1,
     color: constants.secondary,
     opacity: 0.87,
     fontWeight: 'bold',
-    lineHeight: 1.2,
+    // lineHeight: 1.2,
     fontSize: 48,
   },
   h5: {
@@ -36,6 +35,8 @@ export const styles = {
     justifyContent: `flex-start`,
     flexDirection: `column`,
     height: 700,
+    marginRight: `11.46%`, 
+    marginLeft: `11.46%`
   },
   headerLeftSideBox: {
     flex: 0.5,
@@ -54,12 +55,12 @@ export const styles = {
     display: `flex`,
   },
   headerBackgroundImageBox: {
-    backgroundSize: `90%`,
+    // backgroundSize: `90%`,
     backgroundRepeat: `no-repeat`,
-    flex: 1,
-    marginTop: 40,
-    marginLeft: 100,
-    minHeight: 700,
+    // flex: 1,
+    // marginTop: 40,
+    // marginLeft: 100,
+    // minHeight: 700,
   },
   menu: {
     display: `flex`,
@@ -194,7 +195,6 @@ export const styles = {
     width: `auto`,
     height: `auto`,
     marginTop: `10.78%`,
-    marginLeft: `10%`,
     maxWidth: `50%`,
     maxHeight: `50%`
   },
@@ -204,13 +204,5 @@ export const styles = {
     display: `flex`,
     flexDirection: `column`,
     justifyContent: `flext-start`,
-  },
-  headerSubtitle: {
-    color: constants.lightest ,
-    // fontFamily: `Poppins`,
-    fontStyle: `normal`,
-    fontWeight: `normal`,
-    fontSize: 24,
-    lineHeight: 37,
   },
 };

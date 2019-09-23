@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { styles, constants } from '../constants';
@@ -9,32 +10,32 @@ import Title from './Title';
 
 const Header = ({ onPressMenuItem, teamRef, aboutRef, contactRef }) => (
   <div style={styles.header}>
-    <div style={{height: 200, display: 'flex', flexDirection: 'row', justifyContent: `space-between`}}> 
-      <img resizeMode="contain" src={sunshineLogo} alt="sunshine logo" style={styles.headerLogo} />
-      <Menu
-        onPressMenuItem={onPressMenuItem}
-        teamRef={teamRef}
-        aboutRef={aboutRef}
-        contactRef={contactRef}
-      />
-    </div>
-    {/* <div> 
-        <div style={{marginTop: `40%`, marginLeft: `4.78%` }}>
-          <span>Our best machines are made of Sunshine </span>
-          <p style={styles.headerSubtitle}>
+    <div class='Header elements' style={{height: 200, display: 'flex', flexDirection: 'row', justifyContent: `space-between`}}> 
+        <img src={sunshineLogo} alt="sunshine logo" style={styles.headerLogo} />
+        <Menu
+          onPressMenuItem={onPressMenuItem}
+          teamRef={teamRef}
+          aboutRef={aboutRef}
+          contactRef={contactRef}
+        />
+      </div>
+
+    <div class='Header content' style={{height: 500, display: 'flex', flexDirection: 'row', marginTop: 20}}>
+      <div style={{flexDirection: 'column', alignContent: 'center', justifyContent: 'center', marginTop: 150, 
+                    width: '42.38%'}}> 
+          <Title text="Our best machines are made of Sunshine" />
+          <div style={{color: constants.lightest, fontSize: 24}}>
             We are part of the team building Moonad: a Peer-to-Peer Formal Operating System
-          </p>
-      </div> */}
-     {/* <div style={{ flex: 1.3, marginTop: `40%`, marginLeft: `4.78%` }}>
-        <Title text="Our best machines are made of Sunshine" />
-        <p style={{ color: constants.lightest }}>
-          We are part of the team building Moonad: a Peer-to-Peer Formal Operating System
-        </p>
-      </div> */}
-      {/* <div style={styles.headerBackgroundImageContainer}>
-        <div style={{ ...styles.headerBackgroundImageBox, backgroundImage: `url(${mainImage})` }} />
-      </div> */}
-    {/* </div> */}
+          </div>
+      </div>
+      <div style={{width: `48.42%`}}>
+        <img src={mainImage} alt="header main image" 
+        style={{width: `auto`, height: `auto`, maxWidth: `100%`, maxHeight: `100%`}}/>
+      </div>
+    </div> 
+
+    
+    
 
     {/* <div style={styles.headerLeftSideBox}>
       <img src={sunshineLogo} alt="sunshine logo" style={styles.headerLogo} />
