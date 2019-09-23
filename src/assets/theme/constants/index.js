@@ -24,7 +24,7 @@ export const styles = {
     opacity: 0.87,
     fontWeight: 'bold',
     // lineHeight: 1.2,
-    fontSize: 48,
+    fontSize: 36,
   },
   h5: {
     lineHeight: 0.2,
@@ -65,9 +65,8 @@ export const styles = {
   },
   menu: {
     display: `flex`,
-    alignItems: `flex-start`,
-    justifyContent: `flex-start`,
-    marginRight: `11.46%`,
+    alignItems: `flex-star`,
+    justifyContent: `flex-end`,
     marginTop: `10.78%`,
   },
   menuButton: {

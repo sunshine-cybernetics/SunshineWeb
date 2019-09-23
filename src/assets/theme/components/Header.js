@@ -10,7 +10,7 @@ import Title from './Title';
 
 const Header = ({ onPressMenuItem, teamRef, aboutRef, contactRef }) => (
   <div style={styles.header}>
-    <div class='Header elements' style={{height: 200, display: 'flex', flexDirection: 'row', justifyContent: `space-between`}}> 
+    <div class='Header elements' style={{display: 'flex', flexDirection: 'row', justifyContent: `space-between`}}> 
         <img src={sunshineLogo} alt="sunshine logo" style={styles.headerLogo} />
         <Menu
           onPressMenuItem={onPressMenuItem}
@@ -20,15 +20,15 @@ const Header = ({ onPressMenuItem, teamRef, aboutRef, contactRef }) => (
         />
       </div>
 
-    <div class='Header content' style={{height: 500, display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: 20}}>
-      <div style={{flexDirection: 'column', alignContent: 'center', justifyContent: 'center', marginTop: `09.00%`, 
-                    width: 550}}> 
+    <div class='Header content' style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: 20}}>
+      <div style={{flexDirection: 'column', alignContent: 'center', justifyContent: 'center', marginTop: `15.00%`, 
+                    width: 500}}> 
           <Title text="Our best machines are made of Sunshine"/>
-          <div style={{color: constants.lightest, fontSize: 24}}>
+          <div style={{color: constants.lightest, fontSize: 18}}>
             We are part of the team building Moonad: a Peer-to-Peer Formal Operating System
           </div>
       </div>
-      <div style={{width: 622}}>
+      <div style={{width: 700}}>
         <img src={mainImage} alt="header main image" 
         style={{width: `auto`, height: `auto`, maxWidth: `100%`, maxHeight: `100%`}}/>
       </div>
