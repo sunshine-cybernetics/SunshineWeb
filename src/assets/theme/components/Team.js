@@ -4,6 +4,7 @@ import Subtitle from './Subtitle';
 import Title from './Title';
 import TeamMember from './TeamMember';
 import DefaultBox from './DefaultBox';
+import { constants } from 'crypto';
 
 const renderTeamMembers = members => (
   <DefaultBox>

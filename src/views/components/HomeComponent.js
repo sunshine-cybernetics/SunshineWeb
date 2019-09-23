@@ -46,10 +46,10 @@ const HomeComponent = ({
     <DefaultBox style={{ marginTop: 40, minWidth: constants.minWidth }}>
       <Advisors />
     </DefaultBox>
-    <DefaultBox background={teambgImage} backgroundSize="sretch">
+    <DefaultBox background={teambgImage} backgroundSize="sretch" style={{minWidth: constants.minWidth }}>
       <Team members={teamMembers} teamRef={teamRef} />
     </DefaultBox>
-    <DefaultBox style={{ marginTop: 40 }}>
+    <DefaultBox style={{ marginTop: 40, minWidth: constants.minWidth }}>
       <Sponsors />
     </DefaultBox>
     <div ref={contactRef}>

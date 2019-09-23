@@ -14,9 +14,6 @@ const Sponsors = () => (
     <Title text="Sponsors" />
     <DefaultBox>
       <Sponsor image={ethereumFoundationImage} alt="Ethereum Foundation" />
-      <Sponsor image={googleImage} alt="Google" />
-      <Sponsor image={youtubeImage} alt="Youtube" />
-      <Sponsor image={paypalImage} alt="Paypal" />
     </DefaultBox>
   </div>
 );
