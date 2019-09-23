@@ -22,13 +22,13 @@ const Header = ({ onPressMenuItem, teamRef, aboutRef, contactRef }) => (
 
     <div class='Header content' style={{height: 500, display: 'flex', flexDirection: 'row', marginTop: 20}}>
       <div style={{flexDirection: 'column', alignContent: 'center', justifyContent: 'center', marginTop: 150, 
-                    width: '42.38%'}}> 
-          <Title text="Our best machines are made of Sunshine" />
+                    width: 550}}> 
+          <Title text="Our best machines are made of Sunshine"/>
           <div style={{color: constants.lightest, fontSize: 24}}>
             We are part of the team building Moonad: a Peer-to-Peer Formal Operating System
           </div>
       </div>
-      <div style={{width: `48.42%`}}>
+      <div style={{width: 622}}>
         <img src={mainImage} alt="header main image" 
         style={{width: `auto`, height: `auto`, maxWidth: `100%`, maxHeight: `100%`}}/>
       </div>

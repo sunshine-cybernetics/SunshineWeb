@@ -65,7 +65,7 @@ export const styles = {
   menu: {
     display: `flex`,
     alignItems: `flex-start`,
-    justifyContent: `flex-end`,
+    justifyContent: `flex-start`,
     marginRight: `11.46%`,
     marginTop: `10.78%`,
   },
@@ -192,8 +192,8 @@ export const styles = {
     textTransform: `none`,
   },
   headerLogo: {
-    width: `auto`,
-    height: `auto`,
+    width: 154,
+    height: 85,
     marginTop: `10.78%`,
     maxWidth: `50%`,
     maxHeight: `50%`
