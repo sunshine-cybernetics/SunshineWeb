@@ -14,6 +14,7 @@ export const constants = {
   lighter: `#E4E4E4`,
   light: `#515357`,
   white: `#fff`,
+  minWidth: 1280,
 };
 
 export const styles = {
@@ -35,8 +36,8 @@ export const styles = {
     justifyContent: `flex-start`,
     flexDirection: `column`,
     height: 700,
-    marginRight: `11.46%`, 
-    marginLeft: `11.46%`
+    marginRight: 164, 
+    marginLeft: 164
   },
   headerLeftSideBox: {
     flex: 0.5,
@@ -87,6 +88,7 @@ export const styles = {
     justifyContent: `center`,
     textAlign: `center`,
     marginTop: 50,
+    minWidth: constants.minWidth,
   },
   contentBox: {
     width: 350,
@@ -199,10 +201,11 @@ export const styles = {
     maxHeight: `50%`
   },
   headerContainer: {
-    width: `100%`,
+    width: '100%',
     height: 700,
     display: `flex`,
     flexDirection: `column`,
     justifyContent: `flext-start`,
+    minWidth: constants.minWidth
   },
 };

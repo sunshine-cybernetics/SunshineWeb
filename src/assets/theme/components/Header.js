@@ -21,7 +21,7 @@ const Header = ({ onPressMenuItem, teamRef, aboutRef, contactRef }) => (
       </div>
 
     <div class='Header content' style={{height: 500, display: 'flex', flexDirection: 'row', marginTop: 20}}>
-      <div style={{flexDirection: 'column', alignContent: 'center', justifyContent: 'center', marginTop: 150, 
+      <div style={{flexDirection: 'column', alignContent: 'center', justifyContent: 'center', marginTop: `09.00%`, 
                     width: 550}}> 
           <Title text="Our best machines are made of Sunshine"/>
           <div style={{color: constants.lightest, fontSize: 24}}>

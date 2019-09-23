@@ -17,7 +17,8 @@ const contactStyles = {
   marginTop: 80,
   paddingBottom: 200,
   display: `flex`,
-  flexDirection: 'column'
+  flexDirection: 'column',
+  minWidth: constants.minWidth,
 };
 
 const HomeComponent = ({
@@ -30,7 +31,6 @@ const HomeComponent = ({
   onPressSubmitButton,
 }) => (
   <>
-    {/* <div className="App" style={{ backgroundColor: constants.appBackgroundColor }}> */}
     <div className="Header" style={{...styles.headerContainer, backgroundColor: constants.appBackgroundColor}}>
       <Header
         onPressMenuItem={onPressMenuItem}
@@ -43,7 +43,7 @@ const HomeComponent = ({
     <div style={styles.centeredContainer}>
       <Title text="Our Advisors" />
     </div>
-    <DefaultBox style={{ marginTop: 40 }}>
+    <DefaultBox style={{ marginTop: 40, minWidth: constants.minWidth }}>
       <Advisors />
     </DefaultBox>
     <DefaultBox background={teambgImage} backgroundSize="sretch">
