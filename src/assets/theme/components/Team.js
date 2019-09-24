@@ -7,7 +7,7 @@ import DefaultBox from './DefaultBox';
 import { constants } from 'crypto';
 
 const renderTeamMembers = members => (
-  <DefaultBox>
+  <DefaultBox style={{marginRight: 165, marginLeft: 165}}>
     {members.map(member => {
       const { name, position, image, resume } = member;
 

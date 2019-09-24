@@ -14,8 +14,8 @@ import Projects from '../../assets/theme/components/Projects';
 import Header from '../../assets/theme/components/Header';
 
 const contactStyles = {
-  marginTop: 80,
   paddingBottom: 200,
+  marginTop: 170,
   display: `flex`,
   flexDirection: 'column',
   minWidth: constants.minWidth,
@@ -50,7 +50,7 @@ const HomeComponent = ({
       <Advisors />
     </DefaultBox>
     {/* Team  */}
-    <DefaultBox background={teambgImage} backgroundSize="sretch" style={{minWidth: constants.minWidth }}>
+    <DefaultBox background={teambgImage} backgroundSize="contain" style={{minWidth: constants.minWidth }}>
       <Team members={teamMembers} teamRef={teamRef} />
     </DefaultBox>
     {/* Contact  */}
