@@ -14,15 +14,16 @@ export const constants = {
   lighter: `#E4E4E4`,
   light: `#515357`,
   white: `#fff`,
+  minWidth: 1280,
 };
 
 export const styles = {
   h3: {
-    margin: 1,
+    fontFamily: 'Poppins',
     color: constants.secondary,
     opacity: 0.87,
-    fontWeight: `bold`,
-    lineHeight: 1.2,
+    fontWeight: 'bold',
+    // lineHeight: 1.2,
     fontSize: 36,
   },
   h5: {
@@ -32,8 +33,11 @@ export const styles = {
   },
   header: {
     display: `flex`,
-    justifyContent: `center`,
+    justifyContent: `flex-start`,
+    flexDirection: `column`,
     height: 700,
+    marginRight: 164, 
+    marginLeft: 164
   },
   headerLeftSideBox: {
     flex: 0.5,
@@ -52,17 +56,17 @@ export const styles = {
     display: `flex`,
   },
   headerBackgroundImageBox: {
-    backgroundSize: `90%`,
+    // backgroundSize: `90%`,
     backgroundRepeat: `no-repeat`,
-    flex: 1,
-    marginTop: 40,
-    marginLeft: 100,
-    minHeight: 700,
+    // flex: 1,
+    // marginTop: 40,
+    // marginLeft: 100,
+    // minHeight: 700,
   },
   menu: {
     display: `flex`,
+    alignItems: `flex-star`,
     justifyContent: `flex-end`,
-    marginRight: `15.46%`,
     marginTop: `10.78%`,
   },
   menuButton: {
@@ -83,10 +87,11 @@ export const styles = {
     justifyContent: `center`,
     textAlign: `center`,
     marginTop: 50,
+    minWidth: constants.minWidth,
   },
   contentBox: {
-    width: 350,
-    height: 240,
+    width: 320,
+    height: 220,
     borderRadius: 32,
     justifyContent: `center`,
     alignItems: `center`,
@@ -143,7 +148,6 @@ export const styles = {
     color: constants.light,
     fontSize: 12,
     fontWeight: `bold`,
-    letterSpacing: `-0.1px`,
   },
   teamMemberBox: {
     textAlign: `center`,
@@ -156,8 +160,9 @@ export const styles = {
     color: constants.light,
   },
   teamMemberResume: {
-    paddingLeft: 10,
-    paddingRight: 10,
+    paddingLeft: 20,
+    paddingRight: 20,
+    paddingBottom: 20,
     fontSize: 15,
   },
   textInput: {
@@ -187,4 +192,19 @@ export const styles = {
     fontWeight: 600,
     textTransform: `none`,
   },
+  headerLogo: {
+    width: 154,
+    height: 85,
+    marginTop: `10.78%`,
+    maxWidth: `50%`,
+    maxHeight: `50%`
+  },
+  headerContainer: {
+    width: '100%',
+    height: 700,
+    display: `flex`,
+    flexDirection: `column`,
+    justifyContent: `flext-start`,
+    minWidth: constants.minWidth,
+  }
 };

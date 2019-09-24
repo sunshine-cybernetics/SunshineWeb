@@ -28,6 +28,7 @@ const TeamMember = props => {
           </div>
         </div>
       </div>
+      
       <div style={{ marginTop: 16 }}>
         <span style={teamMemberNameText}>{name}</span>
       </div>

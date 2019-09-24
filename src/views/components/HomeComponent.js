@@ -14,10 +14,11 @@ import Projects from '../../assets/theme/components/Projects';
 import Header from '../../assets/theme/components/Header';
 
 const contactStyles = {
-  marginTop: 80,
   paddingBottom: 200,
-  position: `relative`,
-  display: `flexbox`,
+  marginTop: 170,
+  display: `flex`,
+  flexDirection: 'column',
+  minWidth: constants.minWidth,
 };
 
 const HomeComponent = ({
@@ -30,7 +31,8 @@ const HomeComponent = ({
   onPressSubmitButton,
 }) => (
   <>
-    <div className="App" style={{ backgroundColor: constants.appBackgroundColor }}>
+    {/* Header  */}
+    <div className="Header" style={{...styles.headerContainer, backgroundColor: constants.appBackgroundColor}}>
       <Header
         onPressMenuItem={onPressMenuItem}
         teamRef={teamRef}
@@ -38,19 +40,24 @@ const HomeComponent = ({
         contactRef={contactRef}
       />
     </div>
+    {/* Projects  */}
     <Projects aboutRef={aboutRef} />
+    {/* Advisors  */}
     <div style={styles.centeredContainer}>
       <Title text="Our Advisors" />
     </div>
-    <DefaultBox style={{ marginTop: 40 }}>
+    <DefaultBox style={{ marginTop: 40, minWidth: constants.minWidth}}>
       <Advisors />
     </DefaultBox>
-    <DefaultBox background={teambgImage} backgroundSize="sretch">
+    {/* Team  */}
+    <DefaultBox background={teambgImage} backgroundSize="contain" style={{minWidth: constants.minWidth }}>
       <Team members={teamMembers} teamRef={teamRef} />
     </DefaultBox>
-    <DefaultBox style={{ marginTop: 40 }}>
+    {/* Contact  */}
+    <DefaultBox style={{ marginTop: 40, minWidth: constants.minWidth }}>
       <Sponsors />
     </DefaultBox>
+
     <div ref={contactRef}>
       <DefaultBox style={contactStyles} background={contactsImage} backgroundSize="contain">
         <Contact

@@ -4,7 +4,7 @@ import { constants, styles } from '../constants';
 
 const ContactDetail = () => (
   <DefaultBox style={{ justifyContent: `flex-start` }}>
-    <DefaultBox style={{ transform: `rotate(-90deg)`, flex: 0.3 }}>
+    <DefaultBox class="Contact detail title"style={{ transform: `rotate(-90deg)`, flex: 0.3 }}>
       <span style={styles.contactDetailTitle}>Contact</span>
     </DefaultBox>
     <div style={{ flex: 0.6 }}>
