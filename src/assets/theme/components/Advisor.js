@@ -7,7 +7,7 @@ const Advisor = props => {
   const { imageSource, imageAlt, name, title, company, resume } = props;
   const { defaultBox, advisorsTitleAndCompany } = styles;
   return (
-    <DefaultBox>
+    <DefaultBox style={{width: 380, display: `flex`, justifyContent: `space-between`}}>
       <div style={{ ...defaultBox, flex: 0.5 }}>
         <img src={imageSource} alt={imageAlt} />
       </div>
@@ -19,7 +19,7 @@ const Advisor = props => {
         </span>
         <span style={advisorsTitleAndCompany}>{title}</span>
         <span style={advisorsTitleAndCompany}>{company}</span>
-        <span style={{ color: constants.lightning, fontSize: 14 }}>{resume}</span>
+        <span style={{ color: constants.lightning, fontSize: 12, width: 230}}>{resume}</span>
       </div>
     </DefaultBox>
   );

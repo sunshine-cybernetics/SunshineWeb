@@ -90,8 +90,8 @@ export const styles = {
     minWidth: constants.minWidth,
   },
   contentBox: {
-    width: 350,
-    height: 240,
+    width: 320,
+    height: 220,
     borderRadius: 32,
     justifyContent: `center`,
     alignItems: `center`,
@@ -148,7 +148,6 @@ export const styles = {
     color: constants.light,
     fontSize: 12,
     fontWeight: `bold`,
-    letterSpacing: `-0.1px`,
   },
   teamMemberBox: {
     textAlign: `center`,
@@ -206,5 +205,5 @@ export const styles = {
     flexDirection: `column`,
     justifyContent: `flext-start`,
     minWidth: constants.minWidth
-  },
+  }
 };

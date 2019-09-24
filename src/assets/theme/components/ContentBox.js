@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { styles, constants } from '../constants';
 
 const ContentBox = props => {
-  const { textItem, textBox, children } = props;
+  const { textItem, textBox, children, href } = props;
   const { contentBox, contentBoxTextItem, contentBoxText } = styles;
   const { lighter, lightest } = constants;
 

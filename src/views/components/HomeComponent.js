@@ -31,6 +31,7 @@ const HomeComponent = ({
   onPressSubmitButton,
 }) => (
   <>
+    {/* Header  */}
     <div className="Header" style={{...styles.headerContainer, backgroundColor: constants.appBackgroundColor}}>
       <Header
         onPressMenuItem={onPressMenuItem}
@@ -39,19 +40,24 @@ const HomeComponent = ({
         contactRef={contactRef}
       />
     </div>
+    {/* Projects  */}
     <Projects aboutRef={aboutRef} />
+    {/* Advisors  */}
     <div style={styles.centeredContainer}>
       <Title text="Our Advisors" />
     </div>
-    <DefaultBox style={{ marginTop: 40, minWidth: constants.minWidth }}>
+    <DefaultBox style={{ marginTop: 40, minWidth: constants.minWidth}}>
       <Advisors />
     </DefaultBox>
+    {/* Team  */}
     <DefaultBox background={teambgImage} backgroundSize="sretch" style={{minWidth: constants.minWidth }}>
       <Team members={teamMembers} teamRef={teamRef} />
     </DefaultBox>
+    {/* Contact  */}
     <DefaultBox style={{ marginTop: 40, minWidth: constants.minWidth }}>
       <Sponsors />
     </DefaultBox>
+
     <div ref={contactRef}>
       <DefaultBox style={contactStyles} background={contactsImage} backgroundSize="contain">
         <Contact
