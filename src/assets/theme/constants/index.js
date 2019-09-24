@@ -163,7 +163,6 @@ export const styles = {
     paddingLeft: 20,
     paddingRight: 20,
     paddingBottom: 20,
-    paddingTop: 20,
     fontSize: 15,
   },
   textInput: {
@@ -206,13 +205,6 @@ export const styles = {
     display: `flex`,
     flexDirection: `column`,
     justifyContent: `flext-start`,
-    minWidth: constants.minWidth
-  },
-  contactStyles: {
-    marginTop: 0,
-    paddingBottom: 0,
-    display: `flex`,
-    flexDirection: 'column',
     minWidth: constants.minWidth,
   }
 };

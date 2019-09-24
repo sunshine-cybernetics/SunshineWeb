@@ -23,13 +23,13 @@ const Contact = ({ contactRef, state, setState, onPressSubmitButton }) => (
 
       <div style={{ flex: 0.5 }}>
         <ContactForm state={state} setState={setState} onPressSubmitButton={onPressSubmitButton} />
-        <div style={{ textAlign: `right` }}>
+        <div style={{ textAlign: `right`, marginTop: 40 }}>
           <img
             src={sunshineLogoImage}
             alt="sunshine logo"
-            style={{ width: 130, filter: `grayscale(100%)` }}
+            style={{ width: 100, filter: `grayscale(100%)` }}
           />
-          <span style={{ ...styles.contentBoxText, color: constants.lightest }}>
+          <span style={{ ...styles.contentBoxText, color: constants.lightest, marginTop: 10}}>
             © 2019 Sunshine Cybernetics
           </span>
         </div>
