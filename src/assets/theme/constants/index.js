@@ -19,23 +19,22 @@ export const constants = {
 
 export const styles = {
   h3: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Poppins-Bold',
     color: constants.secondary,
     opacity: 0.87,
-    fontWeight: 'bold',
-    // lineHeight: 1.2,
     fontSize: 36,
   },
   h5: {
     lineHeight: 0.2,
     textAlign: `center`,
     textTransform: `uppercase`,
+    fontFamily: 'Poppins-Medium'
   },
   header: {
     display: `flex`,
     justifyContent: `flex-start`,
-    flexDirection: `column`,
-    height: 700,
+    flexDirection: `row`,
+    height: 650,
     marginRight: 164, 
     marginLeft: 164
   },
@@ -43,12 +42,15 @@ export const styles = {
     flex: 0.5,
     alignContent: `flex-end`,
     justifyContent: `flex-end`,
-    marginTop: `3.78%`,
   },
   headerRightSideBox: {
     flex: 1,
     backgroundSize: `contain`,
     backgroundRepeat: `no-repeat`,
+    marginRight: -164,
+    marginTop: -20,
+    marginLeft: -130,
+    justifyContent: `flex-start`,
   },
   headerBackgroundImageContainer: {
     width: `100%`,
@@ -65,9 +67,10 @@ export const styles = {
   },
   menu: {
     display: `flex`,
-    alignItems: `flex-star`,
-    justifyContent: `flex-end`,
-    marginTop: `10.78%`,
+    alignItems: `flex-start`,
+    justifyContent: `flex-start`,
+    marginTop: 100,
+    marginLeft: 200
   },
   menuButton: {
     fontStyle: `normal`,
@@ -101,9 +104,8 @@ export const styles = {
     marginBottom: 26,
   },
   contentBoxTextItem: {
-    fontWeight: `bolder`,
+    fontFamily: 'Poppins-Bold',
     fontSize: 32,
-    fontStyle: `normal`,
   },
   contentBoxText: {
     fontSize: 16,
@@ -147,7 +149,7 @@ export const styles = {
   advisorsTitleAndCompany: {
     color: constants.light,
     fontSize: 12,
-    fontWeight: `bold`,
+    fontFamily: 'Poppins-Medium',
   },
   teamMemberBox: {
     textAlign: `center`,
@@ -184,24 +186,26 @@ export const styles = {
     color: constants.lightning,
     letterSpacing: `2.4px`,
     textTransform: `uppercase`,
-    fontSize: 16,
+    fontSize: 14,
+    fontFamily: 'Poppins-Medium'
   },
   contactDetailText: {
     borderBottom: `none`,
     color: constants.cyan,
     fontWeight: 600,
     textTransform: `none`,
+    fontFamily: 'Poppins-Medium'
   },
   headerLogo: {
-    width: 154,
+    width: 147,
     height: 85,
-    marginTop: `10.78%`,
     maxWidth: `50%`,
-    maxHeight: `50%`
+    maxHeight: `50%`,
+    marginTop: 100
   },
   headerContainer: {
     width: '100%',
-    height: 700,
+    height: 650,
     display: `flex`,
     flexDirection: `column`,
     justifyContent: `flext-start`,
