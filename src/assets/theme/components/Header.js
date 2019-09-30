@@ -3,10 +3,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { styles, constants } from '../constants';
 import sunshineLogo from '../../images/Sunshine-logo.png';
-import headerBg from '../../images/header-bg.png';
 import mainImage from '../../images/main-image.png';
 import Menu from './Menu';
 import Title from './Title';
+
+const link = `https://warwick.ac.uk/fac/arts/english/currentstudents/undergraduate/modules/fictionnownarrativemediaandtheoryinthe21stcentury/manifestly_haraway_----_a_cyborg_manifesto_science_technology_and_socialist-feminism_in_the_....pdf`;
 
 const Header = ({ onPressMenuItem, teamRef, aboutRef, contactRef }) => (
   <div style={styles.header}>

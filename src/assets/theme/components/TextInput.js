@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { styles } from '../constants';
 
 const TextInput = props => {
-  const { id, type, label, isTextArea, value, onChangeText } = props;
+  const { id, type, label, isTextArea, value, onChangeText, textAreaHeight } = props;
   return (
     <div style={{ marginLeft: 15, marginRight: 15, flex: 1 }}>
       <form>
@@ -14,8 +14,8 @@ const TextInput = props => {
           {label}
           {isTextArea ? (
             <textarea
-              style={{ width: `100%` }}
-              minLength={2}
+              style={{ width: `100%`, height: textAreaHeight }}
+              minLength={3}
               value={value}
               onChange={evt => onChangeText(evt.target.value)}
             />
@@ -52,6 +52,7 @@ TextInput.propTypes = {
   isTextArea: PropTypes.bool,
   value: PropTypes.string.isRequired,
   onChangeText: PropTypes.func.isRequired,
+  textAreaHeight: PropTypes.number.isRequired,
 };
 
 export default TextInput;
