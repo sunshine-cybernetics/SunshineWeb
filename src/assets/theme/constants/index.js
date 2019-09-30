@@ -18,12 +18,12 @@ export const constants = {
 
 export const styles = {
   h3: {
-    fontFamily: 'Poppins',
+    fontFamily: `Poppins`,
     color: constants.secondary,
     opacity: 0.87,
-    fontWeight: 'bold',
+    fontWeight: `bold`,
     // lineHeight: 1.2,
-    fontSize: 48,
+    fontSize: 36,
   },
   h5: {
     lineHeight: 0.2,
@@ -35,8 +35,8 @@ export const styles = {
     justifyContent: `flex-start`,
     flexDirection: `column`,
     height: 700,
-    marginRight: `11.46%`, 
-    marginLeft: `11.46%`
+    marginRight: `11.46%`,
+    marginLeft: `11.46%`,
   },
   headerLeftSideBox: {
     flex: 0.5,
@@ -196,7 +196,7 @@ export const styles = {
     height: 85,
     marginTop: `10.78%`,
     maxWidth: `50%`,
-    maxHeight: `50%`
+    maxHeight: `50%`,
   },
   headerContainer: {
     width: `100%`,
