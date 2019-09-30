@@ -9,14 +9,14 @@ import sunshineLogoImage from '../../images/Sunshine-logo.png';
 import { styles, constants } from '../constants';
 
 const Contact = ({ contactRef, state, setState, onPressSubmitButton }) => (
-  <div style={{ marginBottom: 200, marginTop: -100 }}>
+  <div style={{ marginBottom: -100, marginTop: -100 }}>
 
     <div class= "Contact message" style={{ textAlign: `left`}}>
       <Title text="Hi!" />
       <Title text="We’d love to hear from you" />
     </div>
 
-    <DefaultBox class="Contact form" style={{ marginTop: 40, marginLeft: -27, alignItems: `flex-start`, justifyContent: `space-between` }}>
+    <DefaultBox class="Contact form" style={{ marginTop: 60, marginLeft: -27, alignItems: `flex-start`, justifyContent: `space-between` }}>
       <div style={{ flex: 0.3}}>
         <ContactDetail contactRef={contactRef} />
       </div>

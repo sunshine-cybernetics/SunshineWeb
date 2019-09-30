@@ -28,6 +28,7 @@ export const styles = {
     lineHeight: 0.2,
     textAlign: `center`,
     textTransform: `uppercase`,
+    fontFamily: 'Poppins-Medium'
   },
   header: {
     display: `flex`,
@@ -103,9 +104,8 @@ export const styles = {
     marginBottom: 26,
   },
   contentBoxTextItem: {
-    fontWeight: `bolder`,
+    fontFamily: 'Poppins-Bold',
     fontSize: 32,
-    fontStyle: `normal`,
   },
   contentBoxText: {
     fontSize: 16,
@@ -149,7 +149,7 @@ export const styles = {
   advisorsTitleAndCompany: {
     color: constants.light,
     fontSize: 12,
-    fontWeight: `bold`,
+    fontFamily: 'Poppins-Medium',
   },
   teamMemberBox: {
     textAlign: `center`,
@@ -186,13 +186,15 @@ export const styles = {
     color: constants.lightning,
     letterSpacing: `2.4px`,
     textTransform: `uppercase`,
-    fontSize: 16,
+    fontSize: 14,
+    fontFamily: 'Poppins-Medium'
   },
   contactDetailText: {
     borderBottom: `none`,
     color: constants.cyan,
     fontWeight: 600,
     textTransform: `none`,
+    fontFamily: 'Poppins-Medium'
   },
   headerLogo: {
     width: 147,

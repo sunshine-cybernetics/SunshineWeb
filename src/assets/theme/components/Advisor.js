@@ -13,7 +13,7 @@ const Advisor = props => {
       </div>
       <div style={{ flex: 1 }}>
         <span
-          style={{ color: constants.lightning, fontSize: 24, fontWeight: 600, marginBottom: 10 }}
+          style={{ color: constants.lightning, fontSize: 24, fontFamily: 'Poppins-Medium', marginBottom: 10 }}
         >
           {name}
         </span>
