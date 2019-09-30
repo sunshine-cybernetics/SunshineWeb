@@ -34,7 +34,7 @@ export const styles = {
   header: {
     display: `flex`,
     justifyContent: `flex-start`,
-    flexDirection: `column`,
+    flexDirection: `row`,
     height: 700,
     marginRight: 164, 
     marginLeft: 164
@@ -43,12 +43,13 @@ export const styles = {
     flex: 0.5,
     alignContent: `flex-end`,
     justifyContent: `flex-end`,
-    marginTop: `3.78%`,
   },
   headerRightSideBox: {
     flex: 1,
     backgroundSize: `contain`,
     backgroundRepeat: `no-repeat`,
+    marginRight: -164,
+    justifyContent: `flex-start`,
   },
   headerBackgroundImageContainer: {
     width: `100%`,
@@ -65,9 +66,10 @@ export const styles = {
   },
   menu: {
     display: `flex`,
-    alignItems: `flex-star`,
-    justifyContent: `flex-end`,
-    marginTop: `10.78%`,
+    alignItems: `flex-start`,
+    justifyContent: `flex-start`,
+    marginTop: 100,
+    marginLeft: 200
   },
   menuButton: {
     fontStyle: `normal`,
@@ -193,11 +195,11 @@ export const styles = {
     textTransform: `none`,
   },
   headerLogo: {
-    width: 154,
+    width: 147,
     height: 85,
-    marginTop: `10.78%`,
     maxWidth: `50%`,
-    maxHeight: `50%`
+    maxHeight: `50%`,
+    marginTop: 100
   },
   headerContainer: {
     width: '100%',
