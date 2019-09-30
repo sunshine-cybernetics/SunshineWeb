@@ -32,7 +32,7 @@ const Header = ({ onPressMenuItem, teamRef, aboutRef, contactRef }) => (
       <div style={styles.headerBackgroundImageContainer}>
         {/* <div style={{ ...styles.headerBackgroundImageBox, backgroundImage: `url(${mainImage})` }} /> */}
         <img src={mainImage} alt="header main image" 
-        style={{width: `auto`, height: `auto`, maxWidth: `70%`, maxHeight: `70%`, marginTop: 40}}/>
+        style={{width: `auto`, height: `auto`, maxWidth: `70%`, maxHeight: `70%`, marginTop: 40, marginLeft: 130}}/>
       </div>
     </div> 
 

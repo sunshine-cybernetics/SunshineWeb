@@ -19,11 +19,9 @@ export const constants = {
 
 export const styles = {
   h3: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Poppins-Bold',
     color: constants.secondary,
     opacity: 0.87,
-    fontWeight: 'bold',
-    // lineHeight: 1.2,
     fontSize: 36,
   },
   h5: {
@@ -35,7 +33,7 @@ export const styles = {
     display: `flex`,
     justifyContent: `flex-start`,
     flexDirection: `row`,
-    height: 700,
+    height: 650,
     marginRight: 164, 
     marginLeft: 164
   },
@@ -49,6 +47,8 @@ export const styles = {
     backgroundSize: `contain`,
     backgroundRepeat: `no-repeat`,
     marginRight: -164,
+    marginTop: -20,
+    marginLeft: -130,
     justifyContent: `flex-start`,
   },
   headerBackgroundImageContainer: {
@@ -203,7 +203,7 @@ export const styles = {
   },
   headerContainer: {
     width: '100%',
-    height: 700,
+    height: 650,
     display: `flex`,
     flexDirection: `column`,
     justifyContent: `flext-start`,

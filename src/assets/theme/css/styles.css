@@ -1,4 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap'); */
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+	src: url('../../fonts/Poppins-Regular.ttf');
+	
+	font-family: 'Poppins-Bold';
+  font-style: bold;
+  font-weight: 400;
+	src: url('../../fonts/Poppins-Bold.ttf');
+
+}
+
+
 body {
 	background-color: #F2F2F2;
 	font-family: 'Poppins', sans-serif;
