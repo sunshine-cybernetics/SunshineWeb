@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { not, isNil } from 'ramda';
 import TextInput from './TextInput';
 import DefaultBox from './DefaultBox';
 import { styles } from '../constants';
@@ -9,6 +10,19 @@ const contactFormStyles = {
   justifyContent: `flex-end`,
   alignItems: `none`,
   height: 80,
+};
+
+const onChangeText = ({ state, setState, text }) => {
+  const { message } = state;
+
+  if (not(isNil(message))) {
+    return setState({
+      ...state,
+      textAreaHeight: text.length > 100 ? (30 * text.length) / 100 : 30,
+      message: text,
+    });
+  }
+  return null;
 };
 
 const ContactForm = ({ state, setState, onPressSubmitButton }) => {
@@ -44,7 +58,8 @@ const ContactForm = ({ state, setState, onPressSubmitButton }) => {
         label="Message"
         type="none"
         isTextArea
-        onChangeText={text => setState({ ...state, message: text })}
+        textAreaHeight={state.textAreaHeight}
+        onChangeText={text => onChangeText({ text, state, setState })}
       />
       <div style={{ textAlign: `right` }}>
         <button

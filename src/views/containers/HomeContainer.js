@@ -20,7 +20,7 @@ const HomeContainer = () => {
   const teamRef = useRef(null);
   const aboutRef = useRef(null);
   const contactRef = useRef(null);
-  const INITIAL_STATE = { surname: ``, name: ``, email: ``, message: `` };
+  const INITIAL_STATE = { surname: ``, name: ``, email: ``, message: ``, textAreaHeight: 30 };
   const [state, setState] = useState(INITIAL_STATE);
 
   return (
