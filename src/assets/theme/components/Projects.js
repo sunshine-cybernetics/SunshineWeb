@@ -34,7 +34,7 @@ const Projects = ({ aboutRef }) => (
       href="https://github.com/moonad"
     >
       <CircledBox>
-        <img src={moonadImage} alt="Moonad" style={{ width: `100%`, height: `auto` }} />
+        <img src={moonadImage} alt="Moonad" style={{ width: 80, height: `auto` }} />
       </CircledBox>
     </ContentBox>
 
