@@ -9,35 +9,23 @@ const TeamMember = props => {
 
   return (
     <div style={teamMemberBox}>
-      <div className="flip-card">
-        <div className="flip-card-inner">
-          <div style={{ width: 255, height: 255 }}>
-            <div className="flip-card-front">
-              <img src={image} alt={name} style={{ borderRadius: 16, filter: `grayscale(90%)` }} />
-            </div>
-            <div
-              className="flip-card-back"
-              style={{
-                ...styles.defaultBox,
-                backgroundColor: constants.primary,
-                textAlign: `left`,
-              }}
-            >
-              <span style={teamMemberResume}>{resume}</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div style={{ marginTop: 16 }}>
+        <img
+            src={require(`../../images/team/${name.split(` `).join(`-`)}.jpg`)}
+            alt={name}
+            style={{ borderRadius: 16, filter: `grayscale(90%)`, width: 255, hight: 255 }}
+          />
+
+      <div style={{ marginTop: 7 }}>
         <span style={teamMemberNameText}>{name}</span>
       </div>
       <div>
         <Subtitle
           text={position}
-          style={{ fontWeight: `bold`, textTransform: `captalize`, fontSize: 16 }}
+          style={{ fontFamily: 'Poppins', textTransform: `captalize`, fontSize: 16, marginTop: 10}}
         />
       </div>
+      
+      
     </div>
   );
 };

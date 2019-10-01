@@ -127,6 +127,7 @@ export const styles = {
     backgroundRepeat: `no-repeat`,
   },
   defaultButton: {
+    borderWidth: 0,
     borderRadius: 4,
     marginTop: 40,
     backgroundColor: constants.cyan,
@@ -155,11 +156,13 @@ export const styles = {
     textAlign: `center`,
     marginLeft: 15,
     marginRight: 15,
+    marginTop: 40
   },
   teamMemberNameText: {
     fontSize: 24,
-    fontWeight: `bold`,
+    fontFamily: 'Poppins-Bold',
     color: constants.light,
+    marginTop: 22
   },
   teamMemberResume: {
     paddingLeft: 20,

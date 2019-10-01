@@ -8,37 +8,31 @@ export const teamMembers = [
   {
     name: `John Burnham`,
     position: `CEO`,
-    image: `https://i.ibb.co/z2XZ7Lh/jhon.jpg`,
     resume: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
   },
   {
     name: `Victor Maia`,
-    position: `CEO`,
-    image: `https://i.ibb.co/z2XZ7Lh/jhon.jpg`,
+    position: `CTO`,
     resume: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
   },
   {
-    name: `Grabriel Barreto`,
+    name: `Gabriel Barreto`,
     position: `Developer`,
-    image: `https://i.ibb.co/z2XZ7Lh/jhon.jpg`,
-    resume: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
-  },
-  {
-    name: `Maisa Milena`,
-    position: `Developer`,
-    image: `https://i.ibb.co/z2XZ7Lh/jhon.jpg`,
     resume: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
   },
   {
     name: `Maisa Milena`,
     position: `Developer`,
-    image: `https://i.ibb.co/z2XZ7Lh/jhon.jpg`,
     resume: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
   },
   {
-    name: `Maisa Milena`,
+    name: `Leonardo Souza`,
     position: `Developer`,
-    image: `https://i.ibb.co/z2XZ7Lh/jhon.jpg`,
+    resume: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  },
+  {
+    name: `Phoebe Burnham`,
+    position: `Developer`,
     resume: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
   },
 ];
