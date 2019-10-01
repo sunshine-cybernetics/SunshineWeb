@@ -13,7 +13,11 @@ const TeamMember = props => {
         <div className="flip-card-inner">
           <div style={{ width: 255, height: 255 }}>
             <div className="flip-card-front">
-              <img src={image} alt={name} style={{ borderRadius: 16, filter: `grayscale(90%)` }} />
+              <img
+                src={require(`../../images/team/${name.split(` `).join(`-`)}.jpg`)}
+                alt={name}
+                style={{ borderRadius: 16, filter: `grayscale(90%)` }}
+              />
             </div>
             <div
               className="flip-card-back"

@@ -127,6 +127,7 @@ export const styles = {
     backgroundRepeat: `no-repeat`,
   },
   defaultButton: {
+    borderWidth: 0,
     borderRadius: 4,
     marginTop: 40,
     backgroundColor: constants.cyan,
