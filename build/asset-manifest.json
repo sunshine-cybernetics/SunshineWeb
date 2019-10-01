@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/MaisaMilena/SunshineWeb/static/css/main.b8edf03e.chunk.css",
+    "main.js": "/MaisaMilena/SunshineWeb/static/js/main.75c6b695.chunk.js",
+    "main.js.map": "/MaisaMilena/SunshineWeb/static/js/main.75c6b695.chunk.js.map",
+    "runtime~main.js": "/MaisaMilena/SunshineWeb/static/js/runtime~main.5b13b8d5.js",
+    "runtime~main.js.map": "/MaisaMilena/SunshineWeb/static/js/runtime~main.5b13b8d5.js.map",
+    "static/js/2.b19d0215.chunk.js": "/MaisaMilena/SunshineWeb/static/js/2.b19d0215.chunk.js",
+    "static/js/2.b19d0215.chunk.js.map": "/MaisaMilena/SunshineWeb/static/js/2.b19d0215.chunk.js.map",
+    "index.html": "/MaisaMilena/SunshineWeb/index.html",
+    "precache-manifest.25743fdd1e3bdc5f390e8c9a5b5fe6b7.js": "/MaisaMilena/SunshineWeb/precache-manifest.25743fdd1e3bdc5f390e8c9a5b5fe6b7.js",
+    "service-worker.js": "/MaisaMilena/SunshineWeb/service-worker.js",
+    "static/css/main.b8edf03e.chunk.css.map": "/MaisaMilena/SunshineWeb/static/css/main.b8edf03e.chunk.css.map",
+    "static/media/Formality.png": "/MaisaMilena/SunshineWeb/static/media/Formality.d4900d4a.png",
+    "static/media/styles.css": "/MaisaMilena/SunshineWeb/static/media/Poppins-Regular.41e8dead.ttf",
+    "static/media/Sunshine-logo.png": "/MaisaMilena/SunshineWeb/static/media/Sunshine-logo.14bd3f1e.png",
+    "static/media/aaron-stump.svg": "/MaisaMilena/SunshineWeb/static/media/aaron-stump.b2e71692.svg",
+    "static/media/bg-team-sunshine.svg": "/MaisaMilena/SunshineWeb/static/media/bg-team-sunshine.b3555e90.svg",
+    "static/media/contact-us-bg.png": "/MaisaMilena/SunshineWeb/static/media/contact-us-bg.bebff4be.png",
+    "static/media/ethereum-foundation.svg": "/MaisaMilena/SunshineWeb/static/media/ethereum-foundation.e83ad4a4.svg",
+    "static/media/facebook.svg": "/MaisaMilena/SunshineWeb/static/media/facebook.2a17602c.svg",
+    "static/media/gitlab.svg": "/MaisaMilena/SunshineWeb/static/media/gitlab.f9b6ed8d.svg",
+    "static/media/google.svg": "/MaisaMilena/SunshineWeb/static/media/google.ac40f06f.svg",
+    "static/media/header-bg.png": "/MaisaMilena/SunshineWeb/static/media/header-bg.061477e9.png",
+    "static/media/instagram.svg": "/MaisaMilena/SunshineWeb/static/media/instagram.8a95c671.svg",
+    "static/media/jacob-arluck.svg": "/MaisaMilena/SunshineWeb/static/media/jacob-arluck.a1fb1962.svg",
+    "static/media/linkedin.svg": "/MaisaMilena/SunshineWeb/static/media/linkedin.327a287d.svg",
+    "static/media/main-image.png": "/MaisaMilena/SunshineWeb/static/media/main-image.4417cb9a.png",
+    "static/media/paypal.svg": "/MaisaMilena/SunshineWeb/static/media/paypal.dd21f1aa.svg",
+    "static/media/twitter.svg": "/MaisaMilena/SunshineWeb/static/media/twitter.d0d13329.svg",
+    "static/media/youtube.svg": "/MaisaMilena/SunshineWeb/static/media/youtube.704a701b.svg"
+  }
+}
