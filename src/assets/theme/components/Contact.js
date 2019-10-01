@@ -35,9 +35,9 @@ const Contact = ({ contactRef, state, setState, onPressSubmitButton }) => (
         </div>
       </div>
 
-      <div style={{ flex: 0.1 }}>
+      {/* <div style={{ flex: 0.1 }}>
         <SocialMedia />
-      </div>
+      </div> */}
       
     </DefaultBox>
   </div>
