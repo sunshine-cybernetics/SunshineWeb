@@ -31,8 +31,8 @@ const Projects = ({ aboutRef }) => (
     <ContentBox
       textItem="Moonad"
       textBox="We are part of the team developing Moonad, an open-source project of a Peer-to-Peer Formal Operating System."
-      href="https://github.com/moonad"
-    >
+      href = "https://github.com/moonad"
+  >
       <CircledBox>
         <img src={moonadImage} alt="Moonad" style={{ width: `100%`, height: `auto` }} />
       </CircledBox>
@@ -41,7 +41,7 @@ const Projects = ({ aboutRef }) => (
     <ContentBox
       textItem="Formality"
       textBox="It started as a research project inside the Ethereum Foundation then Sunshine Cybernetics founded the team to finish the language. Today it is maintained by Sunshine Cybernetics team inside Moonad's project."
-      href="https://github.com/moonad/Formality"
+      href = "https://github.com/moonad/Formality"
     >
       <CircledBox>
         <img src={formalityImage} alt="Formality" style={{ width: 45, height: `auto` }} />
