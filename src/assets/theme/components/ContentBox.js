@@ -2,13 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { styles, constants } from '../constants';
 
+const onClick = href => window.open(href, `_blank`);
+
 const ContentBox = props => {
   const { textItem, textBox, children, href } = props;
   const { contentBox, contentBoxTextItem, contentBoxText } = styles;
   const { lighter, lightest } = constants;
 
   return (
-    <div style={{ ...contentBox, height: `auto` }}>
+    <div style={{ ...contentBox, height: `auto`, cursor: `pointer` }}>
       <div
         style={{
           ...contentBox,
@@ -17,14 +19,10 @@ const ContentBox = props => {
           backgroundColor: lighter,
         }}
         className="content-box"
+        onClick = {() => {onClick(href)}}
       >
         {children}
-        <span
-          style={{
-            ...contentBoxTextItem,
-            color: lightest,
-          }}
-        >
+        <span style={{...contentBoxTextItem,color: lightest,}}>
           {textItem}
         </span>
       </div>
