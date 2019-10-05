@@ -11,7 +11,7 @@ import { styles, constants } from '../constants';
 const Contact = ({ contactRef, state, setState, onPressSubmitButton }) => (
   <div style={{  marginTop: -100 }}>
 
-    <div className= "Contact message" style={{ textAlign: `left`}}>
+    <div className="Contact message" style={{ textAlign: `left`}}>
       <Title text="Hi!" />
       <Title text="We’d love to hear from you" />
     </div>
@@ -22,7 +22,7 @@ const Contact = ({ contactRef, state, setState, onPressSubmitButton }) => (
       </div>
 
       <div style={{ flex: 0.5, height: 600 }}>
-        <ContactForm className="Contact form"state={state} setState={setState} onPressSubmitButton={onPressSubmitButton} />
+        <ContactForm className="Contact form" state={state} setState={setState} onPressSubmitButton={onPressSubmitButton} />
         <div style={{ textAlign: `right`, marginTop: 40 }}>
           <img
             src={sunshineLogoImage}

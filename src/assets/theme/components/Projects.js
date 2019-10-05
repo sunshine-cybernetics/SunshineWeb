@@ -9,7 +9,7 @@ import { constants, styles } from '../constants';
 import Subtitle from './Subtitle';
 import Title from './Title';
 
-const Projects = ({ aboutRef }) => (
+const Projects=({ aboutRef }) => (
   <>
     <div style={styles.centeredContainer} ref={aboutRef}>
       <div style={{ flex: 0.3 }}>
@@ -18,7 +18,7 @@ const Projects = ({ aboutRef }) => (
         <span style={{ color: constants.light }}>
           Follow us on
           {` `}
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/moonad" style={{ color: constants.primary } }>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/moonad" style={{ color: constants.primary }}>
             Github
             {` `}
           </a>
@@ -28,42 +28,42 @@ const Projects = ({ aboutRef }) => (
     </div>
     <div style={styles.centeredContainer}>
 
-    <ContentBox
-      textItem="Moonad"
-      textBox="We are part of the team developing Moonad, an open-source project of a Peer-to-Peer Formal Operating System."
-      href = "https://github.com/moonad"
-  >
-      <CircledBox>
-        <img src={moonadImage} alt="Moonad" style={{ width: 80, height: `auto` }} />
-      </CircledBox>
-    </ContentBox>
+      <ContentBox
+        textItem="Moonad"
+        textBox="We are part of the team developing Moonad, an open-source project of a Peer-to-Peer Formal Operating System."
+        href="https://github.com/moonad"
+      >
+        <CircledBox>
+          <img src={moonadImage} alt="Moonad" style={{ width: 80, height: `auto` }} />
+        </CircledBox>
+      </ContentBox>
 
-    <ContentBox
-      textItem="Formality"
-      textBox="It started as a research project inside the Ethereum Foundation then Sunshine Cybernetics founded the team to finish the language. Today it is maintained by Sunshine Cybernetics team inside Moonad's project."
-      href = "https://github.com/moonad/Formality"
-    >
-      <CircledBox>
-        <img src={formalityImage} alt="Formality" style={{ width: 45, height: `auto` }} />
-      </CircledBox>
-    </ContentBox>
+      <ContentBox
+        textItem="Formality"
+        textBox="It started as a research project inside the Ethereum Foundation then Sunshine Cybernetics founded the team to finish the language. Today it is maintained by Sunshine Cybernetics team inside Moonad's project."
+        href="https://github.com/moonad/Formality"
+      >
+        <CircledBox>
+          <img src={formalityImage} alt="Formality" style={{ width: 45, height: `auto` }} />
+        </CircledBox>
+      </ContentBox>
 
-    <ContentBox
-      textItem="Kaelin"
-      textBox="A simple, blockhain-enabled MOBA game implemented in Formality."
-      href=""
-      isActive
-    >
-      <CircledBox>
-        <img src={kaelinImage} alt="Kaelin" style={{ width: 45, height: `auto` }} />
-      </CircledBox>
-    </ContentBox>
+      <ContentBox
+        textItem="Kaelin"
+        textBox="A simple, blockhain-enabled MOBA game implemented in Formality."
+        href=""
+        isActive
+      >
+        <CircledBox>
+          <img src={kaelinImage} alt="Kaelin" style={{ width: 45, height: `auto` }} />
+        </CircledBox>
+      </ContentBox>
       
     </div>
   </>
 );
 
-Projects.propTypes = {
+Projects.propTypes={
   aboutRef: PropTypes.shape({}).isRequired,
 };
 
