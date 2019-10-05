@@ -29,7 +29,7 @@ DefaultBox.propTypes = {
   children: PropTypes.shape({}).isRequired,
   style: PropTypes.shape({}),
   background: PropTypes.string,
-  backgroundSize: PropTypes.number,
+  backgroundSize: PropTypes.string,
 };
 
 export default DefaultBox;

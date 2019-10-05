@@ -12,7 +12,9 @@
     "yarn": "^1.19.0"
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "eslint": "^6.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.1",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^2.5.0",
     "eslint-config-react-app": "^2.0.0",
@@ -20,8 +22,7 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^2.3.1",
     "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^1.7.0",
-    "gh-pages": "^2.1.1"
+    "eslint-plugin-react-hooks": "^1.7.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -46,5 +47,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://github.com/sunshine-cybernetics/SunshineWeb"
+  "homepage": "https://github.com/sunshine-cybernetics/SunshineWeb",
+  "rules":{
+    "react/no-array-index-key":"off"
+  }
 }

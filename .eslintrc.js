@@ -19,8 +19,9 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [
-    'react',
-    "eslint-plugin-prettier"
+    "react",
+    "jsx-a11y",
+    "import"  
   ],
   rules: {
     "prefer-destructuring": "off",

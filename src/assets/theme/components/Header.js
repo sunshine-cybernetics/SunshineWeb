@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { styles, constants } from '../constants';
@@ -13,7 +12,7 @@ const link = `https://warwick.ac.uk/fac/arts/english/currentstudents/undergradua
 const Header = ({ onPressMenuItem, teamRef, aboutRef, contactRef }) => (
   <div style={styles.header}>
     {/* Left Side */}
-    <div class="HeaderLeft" style={styles.headerLeftSideBox}>
+    <div className="HeaderLeft" style={styles.headerLeftSideBox}>
       <img src={sunshineLogo} alt="sunshine logo" style={styles.headerLogo} />
 
       <div style={{ marginTop: `30%` }}>
@@ -28,7 +27,7 @@ const Header = ({ onPressMenuItem, teamRef, aboutRef, contactRef }) => (
       </div>
     </div>
     {/* Right side */}
-    <div class="HeaderRight" style={{ ...styles.headerRightSideBox, backgroundImage: `url(${headerBg})` }}>
+    <div className="HeaderRight" style={{ ...styles.headerRightSideBox, backgroundImage: `url(${headerBg})` }}>
       <Menu
         onPressMenuItem={onPressMenuItem}
         teamRef={teamRef}
