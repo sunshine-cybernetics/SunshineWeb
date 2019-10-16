@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { constants, styles } from '../../assets/theme/constants';
 import teambgImage from '../../assets/images/bg-team-sunshine.svg';
-import contactsImage from '../../assets/images/contact-us-bg.png';
+import contactsImage from '../../assets/images/footer-bg.png';
 import Title from '../../assets/theme/components/Title';
 import Advisors from '../../assets/theme/components/Advisors';
 import DefaultBox from '../../assets/theme/components/DefaultBox';
@@ -12,8 +12,10 @@ import Sponsors from '../../assets/theme/components/Sponsors';
 import Contact from '../../assets/theme/components/Contact';
 import Projects from '../../assets/theme/components/Projects';
 import Header from '../../assets/theme/components/Header';
+import Footer from '../../assets/theme/components/Footer';
 
 const contactStyles = {
+  height: 400,
   marginTop: 170,
   display: `flex`,
   flexDirection: 'column',
@@ -56,21 +58,8 @@ const HomeComponent = ({
     <DefaultBox style={{ marginTop: 40, minWidth: constants.minWidth }}>
       <Sponsors />
     </DefaultBox>
-    {/* Contact  */}
-    {/* <div ref={contactRef}>
-      <DefaultBox style={contactStyles} background={contactsImage} backgroundSize="contain">
-        <Contact
-          contactRef={contactRef}
-          state={state}
-          setState={setState}
-          onPressSubmitButton={onPressSubmitButton}
-        />
-      </DefaultBox>
-    </div> */}
-    <div style={styles.footer}> 
-     {/* <p style={{color: constants.lightning, fontSize: 16, fontFamily: 'Poppins', marginBottom: 15}}> contact@sunshinecybernetics.com</p> */}
-     <p style={{color: constants.lightning, fontSize: 16, fontFamily: 'Poppins', marginTop: 0}}> © 2019 Sunshine Cybernetics</p>
-    </div>
+    {/* Footer  */}
+    <Footer/>
   </>
 );
 

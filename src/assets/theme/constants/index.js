@@ -185,19 +185,19 @@ export const styles = {
   },
   contactDetailTitle: {
     borderBottom: `1px solid ${constants.lightning}`,
-    paddingBottom: 10,
+    paddingBottom: 7,
     color: constants.lightning,
     letterSpacing: `2.4px`,
     textTransform: `uppercase`,
-    fontSize: 14,
+    fontSize: 12,
     fontFamily: 'Poppins-Medium'
   },
   contactDetailText: {
     borderBottom: `none`,
     color: constants.cyan,
-    fontWeight: 600,
     textTransform: `none`,
-    fontFamily: 'Poppins-Medium'
+    fontFamily: 'Poppins-Medium',
+    textAlign: 'left'
   },
   headerLogo: {
     width: 147,
@@ -221,6 +221,7 @@ export const styles = {
     flexDirection: `column`,
     marginTop: 100,
     marginBottom: 50,
-    minWidth: constants.minWidth
+    minWidth: constants.minWidth,
+    height: 400
   }
 };
