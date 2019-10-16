@@ -21,7 +21,7 @@ const Contact = ({ contactRef, state, setState, onPressSubmitButton }) => (
         <ContactDetail contactRef={contactRef} />
       </div>
 
-      <div style={{ flex: 0.5, height: 600 }}>
+      {/* <div style={{ flex: 0.5, height: 600 }}>
         <ContactForm className="Contact form" state={state} setState={setState} onPressSubmitButton={onPressSubmitButton} />
         <div style={{ textAlign: `right`, marginTop: 40 }}>
           <img
@@ -37,7 +37,7 @@ const Contact = ({ contactRef, state, setState, onPressSubmitButton }) => (
 
       <div style={{ flex: 0.1 }}>
         <SocialMedia />
-      </div>
+      </div> */}
       
     </DefaultBox>
   </div>
