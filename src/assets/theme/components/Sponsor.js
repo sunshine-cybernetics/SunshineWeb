@@ -3,10 +3,12 @@ import PropTypes from 'prop-types';
 import DefaultBox from './DefaultBox';
 import RetangleBox from './RetangleBox';
 
-const Sponsor = ({ image, alt }) => (
-  <DefaultBox style={{ marginTop: 56, marginLeft: 15, marginRight: 15 }}>
+const onClick = href => window.open(href, `_blank`);
+
+const Sponsor = ({ image, alt, href }) => (
+  <DefaultBox style={{ marginTop: 56, marginLeft: 15, marginRight: 15,cursor: `pointer`}}>
     <RetangleBox>
-      <img src={image} alt={alt} />
+      <img src={image} alt={alt} onClick = {() => {onClick(href)}} />
     </RetangleBox>
   </DefaultBox>
 );

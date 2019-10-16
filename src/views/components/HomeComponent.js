@@ -52,11 +52,11 @@ const HomeComponent = ({
     <DefaultBox className="Team" background={teambgImage} backgroundSize="cover" style={{minWidth: constants.minWidth, width: '100%'}}>
       <Team members={teamMembers} teamRef={teamRef} />
     </DefaultBox>
-    {/* Contact  */}
+    {/* Sponsors  */}
     <DefaultBox style={{ marginTop: 40, minWidth: constants.minWidth }}>
       <Sponsors />
     </DefaultBox>
-
+    {/* Contact  */}
     <div ref={contactRef}>
       <DefaultBox style={contactStyles} background={contactsImage} backgroundSize="contain">
         <Contact

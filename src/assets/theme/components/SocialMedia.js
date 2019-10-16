@@ -20,15 +20,6 @@ const SocialMedia = () => (
     <div style={{ flex: 1, cursor: `pointer`, height: 40 }}>
       <img src={telegramImage} alt="Telegram" onClick={() => onClick(`t.me/formality-lang`)} style={{width: 27, height: 27}} />
     </div>
-    {/* <div style={{ flex: 1, cursor: `pointer` }}>
-      <img src={twitterImage} alt="Twitter" onClick={() => onClick(`https://twitter.com`)} />
-    </div>
-    <div style={{ flex: 1, cursor: `pointer` }}>
-      <img src={instagramImage} alt="Instagram" onClick={() => onClick(`https://instagram.com`)} />
-    </div>
-    <div style={{ flex: 1, cursor: `pointer` }}>
-      <img src={linkedinImage} alt="LinkedIn" onClick={() => onClick(`https://linkedin.com`)} />
-    </div> */}
   </DefaultBox>
 );
 
