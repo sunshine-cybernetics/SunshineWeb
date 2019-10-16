@@ -57,7 +57,7 @@ const HomeComponent = ({
       <Sponsors />
     </DefaultBox>
     {/* Contact  */}
-    <div ref={contactRef}>
+    {/* <div ref={contactRef}>
       <DefaultBox style={contactStyles} background={contactsImage} backgroundSize="contain">
         <Contact
           contactRef={contactRef}
@@ -66,6 +66,10 @@ const HomeComponent = ({
           onPressSubmitButton={onPressSubmitButton}
         />
       </DefaultBox>
+    </div> */}
+    <div style={styles.footer}> 
+     {/* <p style={{color: constants.lightning, fontSize: 16, fontFamily: 'Poppins', marginBottom: 15}}> contact@sunshinecybernetics.com</p> */}
+     <p style={{color: constants.lightning, fontSize: 16, fontFamily: 'Poppins', marginTop: 0}}> © 2019 Sunshine Cybernetics</p>
     </div>
   </>
 );

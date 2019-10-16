@@ -48,7 +48,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://github.com/sunshine-cybernetics/SunshineWeb",
+  "homepage": "https://sunshinecybernetics.com",
   "rules": {
     "react/no-array-index-key": "off"
   }

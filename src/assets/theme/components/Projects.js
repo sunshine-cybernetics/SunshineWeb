@@ -47,17 +47,6 @@ const Projects=({ aboutRef }) => (
           <img src={formalityImage} alt="Formality" style={{ width: 45, height: `auto` }} />
         </CircledBox>
       </ContentBox>
-
-      <ContentBox
-        textItem="Kaelin"
-        textBox="A simple, blockhain-enabled MOBA game implemented in Formality."
-        href=""
-        isActive
-      >
-        <CircledBox>
-          <img src={kaelinImage} alt="Kaelin" style={{ width: 45, height: `auto` }} />
-        </CircledBox>
-      </ContentBox>
       
     </div>
   </>

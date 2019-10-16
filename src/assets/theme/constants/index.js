@@ -213,5 +213,14 @@ export const styles = {
     flexDirection: `column`,
     justifyContent: `flext-start`,
     minWidth: constants.minWidth,
+  }, 
+  footer: {
+    display: `flex`,
+    justifyContent: `center`,
+    textAlign: `center`,
+    flexDirection: `column`,
+    marginTop: 100,
+    marginBottom: 50,
+    minWidth: constants.minWidth
   }
 };
