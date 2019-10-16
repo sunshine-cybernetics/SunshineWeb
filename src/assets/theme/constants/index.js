@@ -70,7 +70,7 @@ export const styles = {
     alignItems: `flex-start`,
     justifyContent: `flex-start`,
     marginTop: 100,
-    marginLeft: 200
+    marginLeft: 400
   },
   menuButton: {
     fontStyle: `normal`,
