@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b476c9d6ce0b47dda695a9cf35480b37",
+    "revision": "185cc21bc9f3c35d9ed33a1e30a39fd0",
     "url": "/index.html"
   },
   {
-    "revision": "adf2abd8e0ad87054e0d",
+    "revision": "301a86a2184e065f61a8",
     "url": "/static/css/main.4e1edd0e.chunk.css"
   },
   {
-    "revision": "b5eb0519319462062966",
-    "url": "/static/js/2.8636ccb5.chunk.js"
+    "revision": "0b00aeb316e4e66676e8",
+    "url": "/static/js/2.c4e6fcc3.chunk.js"
   },
   {
-    "revision": "adf2abd8e0ad87054e0d",
-    "url": "/static/js/main.d692ba6e.chunk.js"
+    "revision": "301a86a2184e065f61a8",
+    "url": "/static/js/main.677c0b04.chunk.js"
   },
   {
     "revision": "4e8d1f41da644c87b4e1",
@@ -80,12 +80,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bg-team-sunshine.b3555e90.svg"
   },
   {
-    "revision": "bebff4bed28713726abebd56fc3ec944",
-    "url": "/static/media/contact-us-bg.bebff4be.png"
+    "revision": "19c1589d8ddbec32a7397e0bf36f4ddc",
+    "url": "/static/media/ethereum.19c1589d.png"
   },
   {
-    "revision": "e83ad4a4c4a18cf41599ceaec4f8339f",
-    "url": "/static/media/ethereum-foundation.e83ad4a4.svg"
+    "revision": "bebff4bed28713726abebd56fc3ec944",
+    "url": "/static/media/footer-bg.bebff4be.png"
   },
   {
     "revision": "ff1d322daa20d811d983e49ee7a0a4a3",
@@ -96,8 +96,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/header-bg.061477e9.png"
   },
   {
-    "revision": "a1fb19626a53813ac38678bb5a0d731e",
-    "url": "/static/media/jacob-arluck.a1fb1962.svg"
+    "revision": "59b5ebeefd27c4a3957065c66e43335f",
+    "url": "/static/media/jacob-arluck.59b5ebee.jpeg"
   },
   {
     "revision": "4417cb9a20bff78d53db861b9253b645",
