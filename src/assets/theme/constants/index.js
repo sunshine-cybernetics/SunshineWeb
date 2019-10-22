@@ -116,8 +116,7 @@ export const styles = {
   circledBox: {
     width: 109,
     height: 109,
-    borderRadius: `100%`,
-    display: `grid`,
+    borderRadius: `100%`
   },
   defaultBox: {
     display: `flex`,

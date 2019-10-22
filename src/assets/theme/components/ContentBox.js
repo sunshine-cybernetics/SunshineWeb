@@ -14,19 +14,21 @@ const ContentBox = props => {
       <div
         style={{
           ...contentBox,
-          display: `grid`,
+          display: `flex`,
+          flexDirection: `column`,
           position: `relative`,
           backgroundColor: lighter,
+          marginBottom: 10
         }}
         className="content-box"
         onClick = {() => {onClick(href)}}
       >
         {children}
-        <span style={{...contentBoxTextItem,color: lightest,}}>
+        <span style={{...contentBoxTextItem,color: lightest,marginTop: 10}}>
           {textItem}
         </span>
       </div>
-      <div style={{ paddingLeft: 30, paddingRight: 30 }}>
+      <div style={{ paddingLeft: 30, paddingRight: 30, marginTop: 20 }}>
         <span style={contentBoxText}>{textBox}</span>
       </div>
       <div />
