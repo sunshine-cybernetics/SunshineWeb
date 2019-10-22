@@ -9,7 +9,7 @@ const Advisor = props => {
   return (
     <DefaultBox style={{width: 380, display: `flex`, justifyContent: `space-between`}}>
       <div style={{ ...defaultBox, flex: 0.5 }}>
-        <img src={imageSource} alt={imageAlt} />
+        <img src={imageSource} alt={imageAlt} style={{ borderRadius: "50%", height: 100}}/>
       </div>
       <div style={{ flex: 1 }}>
         <span

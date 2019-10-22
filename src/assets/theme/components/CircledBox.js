@@ -9,11 +9,13 @@ const CircledBox = props => {
   return (
     <div
       style={{
-        ...contentBox,
         ...circledBox,
         backgroundColor: constants.darkLighted,
         width: size,
         height: size,
+        display: `flex`,
+        alignItems: `center`,
+        justifyContent: `center`,
       }}
       className="circled-box"
     >

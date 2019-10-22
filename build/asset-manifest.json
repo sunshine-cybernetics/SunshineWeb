@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.4e1edd0e.chunk.css",
-    "main.js": "/static/js/main.4911c7d8.chunk.js",
-    "main.js.map": "/static/js/main.4911c7d8.chunk.js.map",
+    "main.js": "/static/js/main.677c0b04.chunk.js",
+    "main.js.map": "/static/js/main.677c0b04.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.376fb1ac.js",
     "runtime~main.js.map": "/static/js/runtime~main.376fb1ac.js.map",
     "static/js/2.c4e6fcc3.chunk.js": "/static/js/2.c4e6fcc3.chunk.js",
     "static/js/2.c4e6fcc3.chunk.js.map": "/static/js/2.c4e6fcc3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.07f98ef0a70d997b5d801fb4e67366cb.js": "/precache-manifest.07f98ef0a70d997b5d801fb4e67366cb.js",
+    "precache-manifest.6475e39ba1af92054076a4f691cfbb53.js": "/precache-manifest.6475e39ba1af92054076a4f691cfbb53.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.4e1edd0e.chunk.css.map": "/static/css/main.4e1edd0e.chunk.css.map",
     "static/media/Bernardo-Amorim.jpg": "/static/media/Bernardo-Amorim.cf50dfdc.jpg",
@@ -24,11 +24,11 @@
     "static/media/Victor-Maia.jpg": "/static/media/Victor-Maia.95782905.jpg",
     "static/media/aaron-stump.svg": "/static/media/aaron-stump.b2e71692.svg",
     "static/media/bg-team-sunshine.svg": "/static/media/bg-team-sunshine.b3555e90.svg",
-    "static/media/ethereum-foundation.svg": "/static/media/ethereum-foundation.e83ad4a4.svg",
+    "static/media/ethereum.png": "/static/media/ethereum.19c1589d.png",
     "static/media/footer-bg.png": "/static/media/footer-bg.bebff4be.png",
     "static/media/github.png": "/static/media/github.ff1d322d.png",
     "static/media/header-bg.png": "/static/media/header-bg.061477e9.png",
-    "static/media/jacob-arluck.svg": "/static/media/jacob-arluck.a1fb1962.svg",
+    "static/media/jacob-arluck.jpeg": "/static/media/jacob-arluck.59b5ebee.jpeg",
     "static/media/main-image.png": "/static/media/main-image.4417cb9a.png",
     "static/media/telegram.png": "/static/media/telegram.ebde6db9.png"
   }

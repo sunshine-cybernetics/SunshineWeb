@@ -1,7 +1,7 @@
 import React from 'react';
 import Subtitle from './Subtitle';
 import Title from './Title';
-import ethereumFoundationImage from '../../images/ethereum-foundation.svg';
+import ethereumFoundationImage from '../../images/ethereum.png';
 import Sponsor from './Sponsor';
 import DefaultBox from './DefaultBox';
 

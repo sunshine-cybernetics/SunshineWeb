@@ -116,8 +116,7 @@ export const styles = {
   circledBox: {
     width: 109,
     height: 109,
-    borderRadius: `100%`,
-    display: `grid`,
+    borderRadius: `100%`
   },
   defaultBox: {
     display: `flex`,
@@ -200,10 +199,8 @@ export const styles = {
     textAlign: 'left'
   },
   headerLogo: {
-    width: 147,
-    height: 85,
-    maxWidth: `50%`,
-    maxHeight: `50%`,
+    maxWidth: `30%`,
+    maxHeight: `30%`,
     marginTop: 100
   },
   headerContainer: {

@@ -1,6 +1,6 @@
 import React from 'react';
 import aaronStumpImg from '../../images/aaron-stump.svg';
-import jacobArluckImg from '../../images/jacob-arluck.svg';
+import jacobArluckImg from '../../images/jacob-arluck.jpeg';
 import DefaultBox from './DefaultBox';
 import Advisor from './Advisor';
 

@@ -8,7 +8,7 @@ const onClick = href => window.open(href, `_blank`);
 const Sponsor = ({ image, alt, href }) => (
   <DefaultBox style={{ marginTop: 56, marginLeft: 15, marginRight: 15,cursor: `pointer`}}>
     <RetangleBox>
-      <img src={image} alt={alt} onClick = {() => {onClick(href)}} />
+      <img src={image} alt={alt} onClick = {() => {onClick(href)}} style={{height: "65%"}}/>
     </RetangleBox>
   </DefaultBox>
 );
