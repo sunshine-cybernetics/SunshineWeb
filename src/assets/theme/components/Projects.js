@@ -44,7 +44,7 @@ const Projects=({ aboutRef }) => (
         href="https://github.com/moonad/Formality"
       >
         <CircledBox>
-          <img src={formalityImage} alt="Formality" style={{ width: 45, height: `auto` }} />
+          <img src={formalityImage} alt="Formality" style={{ width: 45 }} />
         </CircledBox>
       </ContentBox>
       

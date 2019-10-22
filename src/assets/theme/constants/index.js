@@ -200,10 +200,8 @@ export const styles = {
     textAlign: 'left'
   },
   headerLogo: {
-    width: 147,
-    height: 85,
-    maxWidth: `50%`,
-    maxHeight: `50%`,
+    maxWidth: `30%`,
+    maxHeight: `30%`,
     marginTop: 100
   },
   headerContainer: {
