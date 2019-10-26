@@ -22,15 +22,27 @@ const Projects=({ aboutRef }) => (
             Github
             {` `}
           </a>
-          <span style={{ color: constants.primary, display: `inline` }}>→</span>
+          and
+          {/* <span style={{ color: constants.primary, display: `inline` }}>→</span> */}
+        </span>
+
+        <span style={{ color: constants.light }}>
+          join our Formality group on
+          {` `}
+          <a target="_blank" rel="noopener noreferrer" href="https://t.me/formality_lang" style={{ color: constants.primary }}>
+            Telegram
+            {` `}
+          </a>
+          {/* <span style={{ color: constants.primary, display: `inline` }}>→</span> */}
         </span>
       </div>
     </div>
+
     <div style={styles.centeredContainer}>
 
       <ContentBox
         textItem="Moonad"
-        textBox="We are part of the team developing Moonad, an open-source project of a Peer-to-Peer Formal Operating System."
+        textBox="A Peer to Peer Operating System."
         href="https://github.com/moonad"
       >
         <CircledBox>
@@ -40,7 +52,7 @@ const Projects=({ aboutRef }) => (
 
       <ContentBox
         textItem="Formality"
-        textBox="It started as a research project inside the Ethereum Foundation then Sunshine Cybernetics founded the team to finish the language. Today it is maintained by Sunshine Cybernetics team inside Moonad's project."
+        textBox="An efficient dependently-typed systems programming language and proof assistant."
         href="https://github.com/moonad/Formality"
       >
         <CircledBox>

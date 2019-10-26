@@ -23,7 +23,6 @@ const renderTeamMembers = members => (
 const Team = ({ members, teamRef }) => (
   <div style={{ marginTop: 40, marginBottom: 140, textAlign: `center` }} ref={teamRef}>
     <div style={{ paddingBottom: 70, marginTop: 80 }}>
-      <Subtitle text="the superheros" />
       <Title text="Meet our team" />
     </div>
     {renderTeamMembers(members.slice(0, 4))}
