@@ -9,11 +9,11 @@ import { constants } from 'crypto';
 const renderTeamMembers = members => (
   <DefaultBox style={{marginRight: 165, marginLeft: 165}}>
     {members.map(member => {
-      const { name, position, image, resume } = member;
+      const { name, position, image, resume, github } = member;
 
       return (
         <div key={Math.random()}>
-          <TeamMember name={name} position={position} image={image} resume={resume} />
+          <TeamMember name={name} position={position} image={image} resume={resume} github={github} />
         </div>
       );
     })}

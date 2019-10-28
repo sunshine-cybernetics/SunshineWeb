@@ -3,8 +3,10 @@ import PropTypes from 'prop-types';
 import { styles, constants } from '../constants';
 import Subtitle from './Subtitle';
 
+const onClick = href => window.open(href, `_blank`);
+
 const TeamMember = props => {
-  const { name, position, image, resume } = props;
+  const { name, position, image, resume, github } = props;
   const { teamMemberBox, teamMemberNameText, teamMemberResume } = styles;
 
   return (
@@ -12,7 +14,8 @@ const TeamMember = props => {
         <img
             src={require(`../../images/team/${name.split(` `).join(`-`)}.jpg`)}
             alt={name}
-            style={{ borderRadius: 16, filter: `grayscale(90%)`, width: 255, hight: 255 }}
+            style={{ borderRadius: 16, filter: `grayscale(90%)`, width: 255, hight: 255, cursor: `pointer` }}
+            onClick={() => onClick(github)}
           />
 
       <div style={{ marginTop: 7 }}>
@@ -35,6 +38,7 @@ TeamMember.propTypes = {
   position: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   resume: PropTypes.string.isRequired,
+  github: PropTypes.string.isRequired
 };
 
 export default TeamMember;
