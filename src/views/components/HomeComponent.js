@@ -2,25 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { constants, styles } from '../../assets/theme/constants';
 import teambgImage from '../../assets/images/bg-team-sunshine.svg';
-import contactsImage from '../../assets/images/footer-bg.png';
 import Title from '../../assets/theme/components/Title';
 import Advisors from '../../assets/theme/components/Advisors';
 import DefaultBox from '../../assets/theme/components/DefaultBox';
 import Team from '../../assets/theme/components/Team';
 import { teamMembers } from '../../mocks';
 import Sponsors from '../../assets/theme/components/Sponsors';
-import Contact from '../../assets/theme/components/Contact';
 import Projects from '../../assets/theme/components/Projects';
 import Header from '../../assets/theme/components/Header';
 import Footer from '../../assets/theme/components/Footer';
-
-const contactStyles = {
-  height: 400,
-  marginTop: 170,
-  display: `flex`,
-  flexDirection: 'column',
-  minWidth: constants.minWidth,
-};
 
 const HomeComponent = ({
   teamRef,

@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import ContentBox from './ContentBox';
 import moonadImage from '../../images/Moonad.png';
 import formalityImage from '../../images/Formality.png';
-import kaelinImage from '../../images/Kaelin.png';
 import CircledBox from './CircledBox';
 import { constants, styles } from '../constants';
 import Subtitle from './Subtitle';

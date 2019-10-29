@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { styles, constants } from '../constants';
+import { styles } from '../constants';
 import Subtitle from './Subtitle';
 
 const onClick = href => window.open(href, `_blank`);
 
 const TeamMember = props => {
-  const { name, position, image, resume, github } = props;
-  const { teamMemberBox, teamMemberNameText, teamMemberResume } = styles;
+  const { name, position, github } = props;
+  const { teamMemberBox, teamMemberNameText } = styles;
 
   return (
     <div style={teamMemberBox}>
@@ -36,8 +36,7 @@ const TeamMember = props => {
 TeamMember.propTypes = {
   name: PropTypes.string.isRequired,
   position: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
-  resume: PropTypes.string.isRequired,
+  image: PropTypes.string,
   github: PropTypes.string.isRequired
 };
 

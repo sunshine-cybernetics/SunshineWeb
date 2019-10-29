@@ -4,7 +4,7 @@ import { styles, constants } from '../constants';
 
 const CircledBox = props => {
   const { children, size } = props;
-  const { contentBox, circledBox } = styles;
+  const { circledBox } = styles;
 
   return (
     <div

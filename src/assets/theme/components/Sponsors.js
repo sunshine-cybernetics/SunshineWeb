@@ -1,5 +1,4 @@
 import React from 'react';
-import Subtitle from './Subtitle';
 import Title from './Title';
 import ethereumFoundationImage from '../../images/ethereum.png';
 import Sponsor from './Sponsor';
