@@ -31,7 +31,7 @@ Advisor.propTypes = {
   name: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   company: PropTypes.string.isRequired,
-  resume: PropTypes.string.isRequired,
+  resume: PropTypes.any.isRequired,
 };
 
 export default Advisor;

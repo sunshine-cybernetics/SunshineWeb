@@ -1,19 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Subtitle from './Subtitle';
 import Title from './Title';
 import TeamMember from './TeamMember';
 import DefaultBox from './DefaultBox';
-import { constants } from 'crypto';
 
 const renderTeamMembers = members => (
   <DefaultBox style={{marginRight: 165, marginLeft: 165}}>
     {members.map(member => {
-      const { name, position, image, resume } = member;
+      const { name, position, image, github } = member;
 
       return (
         <div key={Math.random()}>
-          <TeamMember name={name} position={position} image={image} resume={resume} />
+          <TeamMember name={name} position={position} image={image} github={github} />
         </div>
       );
     })}
@@ -23,7 +21,6 @@ const renderTeamMembers = members => (
 const Team = ({ members, teamRef }) => (
   <div style={{ marginTop: 40, marginBottom: 140, textAlign: `center` }} ref={teamRef}>
     <div style={{ paddingBottom: 70, marginTop: 80 }}>
-      <Subtitle text="the superheros" />
       <Title text="Meet our team" />
     </div>
     {renderTeamMembers(members.slice(0, 4))}
@@ -36,8 +33,7 @@ Team.propTypes = {
     PropTypes.shape({
       name: PropTypes.string.isRequired,
       position: PropTypes.string.isRequired,
-      image: PropTypes.string.isRequired,
-      resume: PropTypes.string.isRequired,
+      image: PropTypes.string
     }),
   ).isRequired,
   teamRef: PropTypes.shape({}).isRequired,

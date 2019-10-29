@@ -11,7 +11,7 @@ const ContactDetail = () => (
     <div style={{ flex: 0.6, justifyContent: `flex-start`, alignItems: `flex-start`, marginLeft: -15 }}>
       <span style={{ ...styles.contactDetailTitle, ...styles.contactDetailText }}>
         We work remotely!
-        <span style={{ color: constants.lightning,  }}>Currently on USA and Brazil</span>
+        <span style={{ color: constants.lightning,  }}>Currently in the USA and Brazil</span>
       </span>
     </div>
   </DefaultBox>
