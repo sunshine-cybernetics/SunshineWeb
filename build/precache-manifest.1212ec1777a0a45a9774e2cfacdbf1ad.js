@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "185cc21bc9f3c35d9ed33a1e30a39fd0",
+    "revision": "4f3602c94bb41e0e3f94cf340dbb5cc3",
     "url": "/index.html"
   },
   {
-    "revision": "301a86a2184e065f61a8",
+    "revision": "65c202db2aacbaeb8d32",
     "url": "/static/css/main.4e1edd0e.chunk.css"
   },
   {
-    "revision": "0b00aeb316e4e66676e8",
-    "url": "/static/js/2.c4e6fcc3.chunk.js"
+    "revision": "2b27063886397a7afa40",
+    "url": "/static/js/2.f46f794d.chunk.js"
   },
   {
-    "revision": "301a86a2184e065f61a8",
-    "url": "/static/js/main.677c0b04.chunk.js"
+    "revision": "65c202db2aacbaeb8d32",
+    "url": "/static/js/main.a356626b.chunk.js"
   },
   {
     "revision": "4e8d1f41da644c87b4e1",
@@ -34,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1c2af99ef056a42bf16c6a1675beaf0f",
     "url": "/static/media/John-Burnham.1c2af99e.jpg"
-  },
-  {
-    "revision": "899da61eef883e56f1d7d66b843ed58f",
-    "url": "/static/media/Leonardo-Souza.899da61e.jpg"
   },
   {
     "revision": "964029dc9e7157afd10a33f032a3d335",
@@ -88,10 +84,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/footer-bg.bebff4be.png"
   },
   {
-    "revision": "ff1d322daa20d811d983e49ee7a0a4a3",
-    "url": "/static/media/github.ff1d322d.png"
-  },
-  {
     "revision": "061477e98d8c7d491bff91e1ad040962",
     "url": "/static/media/header-bg.061477e9.png"
   },
@@ -102,9 +94,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4417cb9a20bff78d53db861b9253b645",
     "url": "/static/media/main-image.4417cb9a.png"
-  },
-  {
-    "revision": "ebde6db9f4a2fc50afd71b417459eced",
-    "url": "/static/media/telegram.ebde6db9.png"
   }
 ]);

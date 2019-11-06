@@ -22,7 +22,7 @@ const Header = ({ onPressMenuItem, teamRef, aboutRef, contactRef }) => (
           clickable
         />
         <p style={{ color: constants.lightest }}>
-          We are part of the team building Moonad: a Peer-to-Peer Formal Operating System
+          We are part of the team building Moonad: a Peer-to-Peer Operating System
         </p>
       </div>
     </div>

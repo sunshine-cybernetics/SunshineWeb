@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.4e1edd0e.chunk.css",
-    "main.js": "/static/js/main.677c0b04.chunk.js",
-    "main.js.map": "/static/js/main.677c0b04.chunk.js.map",
+    "main.js": "/static/js/main.a356626b.chunk.js",
+    "main.js.map": "/static/js/main.a356626b.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.376fb1ac.js",
     "runtime~main.js.map": "/static/js/runtime~main.376fb1ac.js.map",
-    "static/js/2.c4e6fcc3.chunk.js": "/static/js/2.c4e6fcc3.chunk.js",
-    "static/js/2.c4e6fcc3.chunk.js.map": "/static/js/2.c4e6fcc3.chunk.js.map",
+    "static/js/2.f46f794d.chunk.js": "/static/js/2.f46f794d.chunk.js",
+    "static/js/2.f46f794d.chunk.js.map": "/static/js/2.f46f794d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6475e39ba1af92054076a4f691cfbb53.js": "/precache-manifest.6475e39ba1af92054076a4f691cfbb53.js",
+    "precache-manifest.1212ec1777a0a45a9774e2cfacdbf1ad.js": "/precache-manifest.1212ec1777a0a45a9774e2cfacdbf1ad.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.4e1edd0e.chunk.css.map": "/static/css/main.4e1edd0e.chunk.css.map",
     "static/media/Bernardo-Amorim.jpg": "/static/media/Bernardo-Amorim.cf50dfdc.jpg",
     "static/media/Formality.png": "/static/media/Formality.d4900d4a.png",
     "static/media/Gabriel-Barreto.jpg": "/static/media/Gabriel-Barreto.7ced4688.jpg",
     "static/media/John-Burnham.jpg": "/static/media/John-Burnham.1c2af99e.jpg",
-    "static/media/Leonardo-Souza.jpg": "/static/media/Leonardo-Souza.899da61e.jpg",
     "static/media/Maisa-Milena.jpg": "/static/media/Maisa-Milena.964029dc.jpg",
     "static/media/Moonad.png": "/static/media/Moonad.e69e22cf.png",
     "static/media/Phoebe-Burnham.jpg": "/static/media/Phoebe-Burnham.caede3e9.jpg",
@@ -26,10 +25,8 @@
     "static/media/bg-team-sunshine.svg": "/static/media/bg-team-sunshine.b3555e90.svg",
     "static/media/ethereum.png": "/static/media/ethereum.19c1589d.png",
     "static/media/footer-bg.png": "/static/media/footer-bg.bebff4be.png",
-    "static/media/github.png": "/static/media/github.ff1d322d.png",
     "static/media/header-bg.png": "/static/media/header-bg.061477e9.png",
     "static/media/jacob-arluck.jpeg": "/static/media/jacob-arluck.59b5ebee.jpeg",
-    "static/media/main-image.png": "/static/media/main-image.4417cb9a.png",
-    "static/media/telegram.png": "/static/media/telegram.ebde6db9.png"
+    "static/media/main-image.png": "/static/media/main-image.4417cb9a.png"
   }
 }
