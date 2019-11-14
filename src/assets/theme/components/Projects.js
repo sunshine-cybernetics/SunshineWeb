@@ -41,7 +41,7 @@ const Projects=({ aboutRef }) => (
 
       <ContentBox
         textItem="Moonad"
-        textBox="A Peer to Peer Operating System."
+        textBox="A Peer to Peer Operating System"
         href="https://github.com/moonad"
       >
         <CircledBox>
@@ -51,7 +51,7 @@ const Projects=({ aboutRef }) => (
 
       <ContentBox
         textItem="Formality"
-        textBox="An efficient dependently-typed systems programming language and proof assistant."
+        textBox="An efficient proof language"
         href="https://github.com/moonad/Formality"
       >
         <CircledBox>
