@@ -13,7 +13,7 @@ const Projects=({ aboutRef }) => (
     <div style={styles.centeredContainer} ref={aboutRef}>
       <div style={{ flex: 0.3 }}>
         <Subtitle text="projects" />
-        <Title text="Check it out our work" />
+        <Title text="Check out our work" />
         <span style={{ color: constants.light }}>
           Follow us on
           {` `}
