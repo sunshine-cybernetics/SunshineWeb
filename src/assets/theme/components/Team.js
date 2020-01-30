@@ -19,7 +19,7 @@ const renderTeamMembers = members => (
 );
 
 const Team = ({ members, teamRef }) => (
-  <div style={{ marginTop: 40, marginBottom: 140, textAlign: `center` }} ref={teamRef}>
+  <div style={{ width:"100%", marginTop: 40, marginBottom: 140, textAlign: `center` }} ref={teamRef}>
     <div style={{ paddingBottom: 70, marginTop: 80 }}>
       <Title text="Meet our team" />
     </div>

@@ -29,10 +29,5 @@ export const teamMembers = [
     name: `Phoebe Burnham`,
     position: `Operations`,
     github: `https://github.com/phoebehannan`
-  },
-  {
-    name: `Bernardo Amorim`,
-    position: `Developer`,
-    github: `https://github.com/bamorim`,
-  },
+  }
 ];
